@@ -1,0 +1,7 @@
+	component iclk is
+		port (
+			iclk_clk       : out std_logic;        -- clk
+			iclk_en_oscena : in  std_logic := 'X'  -- oscena
+		);
+	end component iclk;
+

@@ -1,0 +1,40 @@
+set_global_assignment -entity "iclk" -library "iclk" -name IP_TOOL_NAME "Qsys"
+set_global_assignment -entity "iclk" -library "iclk" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "iclk" -library "iclk" -name IP_TOOL_ENV "Qsys"
+set_global_assignment -library "iclk" -name SOPCINFO_FILE [file join $::quartus(qip_path) "../../../iclk.sopcinfo"]
+set_global_assignment -entity "iclk" -library "iclk" -name SLD_INFO "QSYS_NAME iclk HAS_SOPCINFO 1 GENERATION_ID 1701310050"
+set_global_assignment -library "iclk" -name SLD_FILE [file join $::quartus(qip_path) "iclk.debuginfo"]
+set_global_assignment -entity "iclk" -library "iclk" -name IP_TARGETED_DEVICE_FAMILY "Cyclone V"
+set_global_assignment -entity "iclk" -library "iclk" -name IP_GENERATED_DEVICE_FAMILY "{Cyclone V}"
+set_global_assignment -entity "iclk" -library "iclk" -name IP_QSYS_MODE "SYSTEM"
+set_global_assignment -name SYNTHESIS_ONLY_QIP ON
+set_global_assignment -library "iclk" -name MISC_FILE [file join $::quartus(qip_path) "../../../iclk.qsys"]
+set_global_assignment -entity "iclk" -library "iclk" -name IP_COMPONENT_NAME "aWNsaw=="
+set_global_assignment -entity "iclk" -library "iclk" -name IP_COMPONENT_DISPLAY_NAME "aWNsaw=="
+set_global_assignment -entity "iclk" -library "iclk" -name IP_COMPONENT_REPORT_HIERARCHY "On"
+set_global_assignment -entity "iclk" -library "iclk" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "iclk" -library "iclk" -name IP_COMPONENT_VERSION "MS4w"
+set_global_assignment -entity "iclk" -library "iclk" -name IP_COMPONENT_PARAMETER "QVVUT19HRU5FUkFUSU9OX0lE::MTcwMTMxMDA1MA==::QXV0byBHRU5FUkFUSU9OX0lE"
+set_global_assignment -entity "iclk" -library "iclk" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfRkFNSUxZ::Q3ljbG9uZSBW::QXV0byBERVZJQ0VfRkFNSUxZ"
+set_global_assignment -entity "iclk" -library "iclk" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0U=::NUNTRU1BNUYzMUM2::QXV0byBERVZJQ0U="
+set_global_assignment -entity "iclk" -library "iclk" -name IP_COMPONENT_PARAMETER "QVVUT19ERVZJQ0VfU1BFRURHUkFERQ==::Ng==::QXV0byBERVZJQ0VfU1BFRURHUkFERQ=="
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_NAME "YWx0ZXJhX2ludF9vc2M="
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_DISPLAY_NAME "SW50ZXJuYWwgT3NjaWxsYXRvcg=="
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_REPORT_HIERARCHY "Off"
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_INTERNAL "Off"
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_AUTHOR "QWx0ZXJhIENvcnBvcmF0aW9u"
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_VERSION "MTguMQ=="
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_DESCRIPTION "SW50ZXJuYWwgT3NjaWxsYXRvciBwcm92aWRlcyBpbnRlcm5hbCBjbG9jayBzb3VyY2UgZm9yIGRlYnVnZ2luZyBwdXJwb3NlLg=="
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_PARAMETER "SU5GT1JNQVRJT04=::VGhlIG1heGltdW0gb3V0cHV0IGZyZXF1ZW5jeSBpcyAxMDBNSHo=::SU5GT1JNQVRJT04="
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_PARAMETER "REVWSUNFX0ZBTUlMWQ==::Q3ljbG9uZSBW::RGV2aWNlIGZhbWlseQ=="
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_PARAMETER "UEFSVF9OQU1F::NUNTRU1BNUYzMUM2::RGV2aWNl"
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_PARAMETER "REVWSUNFX0lE::VU5LTk9XTg==::REVWSUNFX0lE"
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_PARAMETER "Q0xPQ0tfRlJFUVVFTkNZ::VU5LTk9XTg==::Q0xPQ0tfRlJFUVVFTkNZ"
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_COMPONENT_PARAMETER "Q0JYX0FVVE9fQkxBQ0tCT1g=::QUxM::Q0JYX0FVVE9fQkxBQ0tCT1g="
+
+set_global_assignment -library "iclk" -name VERILOG_FILE [file join $::quartus(qip_path) "iclk.v"]
+set_global_assignment -library "iclk" -name VERILOG_FILE [file join $::quartus(qip_path) "submodules/altera_int_osc.v"]
+
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_TOOL_NAME "altera_int_osc"
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_TOOL_VERSION "18.1"
+set_global_assignment -entity "altera_int_osc" -library "iclk" -name IP_TOOL_ENV "Qsys"
