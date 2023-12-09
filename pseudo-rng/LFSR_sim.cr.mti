@@ -1,0 +1,8 @@
+C:/Users/colli/OneDrive/Fall23/371/Labs/lab4/Part1/lfsr_prng.v {1 {vlog -work work -stats=none C:/Users/colli/OneDrive/Fall23/371/Labs/lab4/Part1/lfsr_prng.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module LFSR_PRNG
+
+Top level modules:
+	LFSR_PRNG
+
+} {} {}}
